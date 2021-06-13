@@ -5,6 +5,7 @@
 
 ## __init__
 * keyword : 想找的工作關鍵字 e.g., python。 
+* area : 想找的工作範圍，以 list 型態輸入e.g.,[6001001000, 6001006000]。(地點編號以 104 上為主)
 * page : 想讓程式幫你投幾頁工作。
 * username : 104 上的帳號。 
 * password : 104 上的密碼。 
@@ -24,7 +25,7 @@ python 3
 * 需先下載相對應 chromedriver: https://chromedriver.chromium.org/downloads
 ```
 if __name__ == "__main__":
-    test = GETAJOB("工作關鍵字", 頁數, "帳號", "密碼", 推薦信編號)
+    test = GETAJOB("工作關鍵字", [工作範圍], 頁數, "帳號", "密碼", 推薦信編號)
     all_submit_url = test._get_all_submit_url()
     test.submit_job(all_submit_url)
 
