@@ -21,7 +21,7 @@
 python 3
 
 ## Usage
-
+* 需先下載相對應 chromedriver: https://chromedriver.chromium.org/downloads
 ```
 if __name__ == "__main__":
     test = GETAJOB("工作關鍵字", 頁數, "帳號", "密碼", 推薦信編號)
