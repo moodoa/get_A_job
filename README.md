@@ -1,7 +1,7 @@
 # get_A_job
 用程式自動在 104 上投遞工作
 
-![alt text](https://resumecheetah.com/wp-content/uploads/2020/01/find-a-job-3.jpg)
+![alt text](https://i.makeagif.com/media/6-14-2021/XF3YQ2.gif)
 
 ## __init__
 * keyword : 想找的工作關鍵字 e.g., python。 
